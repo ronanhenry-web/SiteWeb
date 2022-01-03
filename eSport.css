@@ -1,0 +1,258 @@
+/*Gros titre décoration*/
+header
+{
+	border: 2px solid #333;
+	border-radius: 30%;
+	box-shadow: 8px 10px 5px -5px #134BE2;
+	background: url('titre3.jpg');
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+}
+/*Bas de page*/
+footer
+{
+	background-color: #000000;
+	border: 1px solid #333;
+	box-shadow: 8px 10px 5px -5px black;
+	margin-top: 0%;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content: center;
+}
+/*Gérer le texte dans le footer*/
+footer a
+{
+	color: white;
+}
+/*Gros titre*/
+h1
+{
+	text-align: center;
+	color: white;
+	font-size: 280%;
+	text-shadow: 5px 5px 3px black;
+}
+/*Titre*/
+h3
+{
+	color: #BA0A02;
+}
+/*Texte*/
+p
+{
+	color: white;
+}
+/*Séparation (article)*/
+article
+{
+	border: 2px solid #333;
+	box-shadow: 8px 10px 5px black;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-right: 1%;
+	padding-left: 1%
+}
+/*Position du texte dans le menu*/
+nav
+{
+	align-items: center;
+	height: 70px;
+	justify-content: center;
+	width: 85%;
+	display: flex;
+	background-color: black;
+	border: 1px solid #333;
+	border-radius: 15%;
+	box-shadow: 8px 7px 5px -5px black;
+	margin: 0px auto 2%;
+}
+/*Barre du menu*/
+nav ul
+{
+	padding: 0px;
+	width: 750px;
+}
+/*Case du menu*/
+nav ul li
+{
+	display: inline-block;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	font-size: 150%;
+}
+/*Texte du menu*/
+nav ul li a
+{
+	color: white;
+}
+/*Arrière de la case dans le menu*/
+a:hover
+{
+	border-bottom: 2px solid #134BE2;
+}
+/*Mot menu et image*/
+a
+{
+	color: #0CABFA;
+	text-decoration: none;
+}
+/*Page*/
+html, body
+{
+	background: #222;
+	background-attachment: fixed;
+	text-align: center;
+	font-weight: bold;
+	scroll-behavior: smooth;
+}
+/* Image dimension */
+#box
+{
+	position: absolute;
+	right: 7%;
+	margin-right: 6%;
+	color: white;
+}
+#gif
+{
+	margin-right: 48%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+.logoinstallv2
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 10%;
+}
+.image
+{
+	width: 640px;
+	height: 310px;
+	box-shadow: 8px 10px 5px -5px black;
+}
+.video
+{
+	width: 740px;
+	height: 460px;
+	box-shadow: 8px 10px 5px -5px black;
+}
+.gif
+{
+	width: 640px;
+	height: 310px;
+	box-shadow: 8px 10px 5px -5px black;
+}
+.information2
+{
+	color: white;
+	outline: none;
+	cursor: pointer;
+}
+.riotv2
+{
+	width: 60px;
+	height: 30px;
+}
+.fa-chevron-circle-up
+{
+	color: white;
+	font-size: 30px;
+}
+/*Diaporama*/
+.contenair2
+{
+	padding-left: 25%;
+	margin-left: 3%;
+}
+
+}
+#slideshow:before
+#slideshow:after 
+{
+	position: absolute;
+	bottom: 16px;
+	z-index: -10;
+	width: 50%;
+	height: 20px;
+	content: " ";
+	background: rgba(0,0,0,0.1);
+	border-radius: 50%;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+}
+#slideshow:before 
+{
+	left: 0;
+	transform: rotate(-4deg);
+}
+#slideshow:after 
+{
+	right:0;
+	transform: rotate(4deg);
+}
+/* gestion des dimensions et débordement du conteneur */
+#slideshow .container 
+{
+	position: relative;
+	width: 645px;
+	height: 310px;
+	overflow: hidden;
+}
+/* on prévoit un petit espace gris pour la timeline */
+#slideshow .container:after 
+{
+	position: absolute;
+	bottom: 0; left:0;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background: #999;
+}
+#slideshow .slider 
+{
+	position: absolute;
+	left: 0; top: 0;
+	width: 400%;
+	height: 310px;
+}
+/* annulation des marges sur figure */
+#slideshow figure 
+{
+	position: relative;
+	display: inline-block;
+	padding: 0; margin: 0;
+}
+/* styles de nos légendes */
+#slideshow figcaption 
+{
+	position:absolute;
+	left:0; right:0; bottom: 5px;
+	padding: 20px;
+	margin:0;
+	border-top: 1px solid rgb(225,225,225);
+	text-align:center;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	font-family: "Ink Free", strong;
+	font-size: 30px;
+	background: #FFFFFF;
+	background: rgba(255,255,255,0.7);
+	color: black;
+	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+}
+/* fonction d'animation */
+@keyframes slider {
+	0%, 20%, 100%    { left: 0 }
+	25%, 45%        { left: -100% }
+	50%, 70%        { left: -200% }
+	75%, 95%        { left: -300% }
+}
+#slideshow .slider {
+	animation: slider 15s infinite;
+}
+#slideshow figcaption {
+	animation: figcaptionner 15s infinite;
+}

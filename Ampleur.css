@@ -1,0 +1,180 @@
+/*Gros titre décoration*/
+header
+{
+	border: 2px solid #333;
+	border-radius: 30%;
+	box-shadow: 8px 10px 5px -5px #134BE2;
+	background: url('titre5.jpg');
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+}
+/*Bas de page*/
+footer
+{
+	background-color: #000000;
+	border: 1px solid #333;
+	box-shadow: 8px 10px 5px -5px black;
+	margin-top: 0%;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content: center;
+}
+/*Gérer le texte dans le footer*/
+footer a
+{
+	color: white;
+}
+/*Gros titre*/
+h1
+{
+	text-align: center;
+	color: white;
+	font-size: 280%;
+	text-shadow: 5px 5px 3px black;
+}
+/*Titre*/
+h3
+{
+	color: #BA0A02;
+}
+/*Texte*/
+p
+{
+	color: white;
+}
+/*Séparation (article)*/
+article
+{
+	border: 2px solid #333;
+	box-shadow: 8px 10px 5px black;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-right: 1%;
+	padding-left: 1%
+}
+/*Position du texte dans le menu*/
+nav
+{
+	align-items: center;
+	height: 70px;
+	justify-content: center;
+	width: 85%;
+	display: flex;
+	background-color: black;
+	border: 1px solid #333;
+	border-radius: 15%;
+	box-shadow: 8px 7px 5px -5px black;
+	margin: 0px auto 2%;
+}
+/*Barre du menu*/
+nav ul
+{
+	padding: 0px;
+	width: 750px;
+}
+/*Case du menu*/
+nav ul li
+{
+	display: inline-block;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	font-size: 150%;
+}
+/*Texte du menu*/
+nav ul li a
+{
+	color: white;
+}
+/*Arrière de la case dans le menu*/
+a:hover
+{
+	border-bottom: 2px solid #134BE2;
+}
+/*Mot menu et image*/
+a
+{
+	color: #0CABFA;
+	text-decoration: none;
+}
+/*Page*/
+html, body
+{
+	background: #222;
+	background-attachment: fixed;
+	text-align: center;
+	font-weight: bold;
+	scroll-behavior: smooth;
+}
+/* Image dimension */
+#box2
+{
+	position: absolute;
+	left: 5%;
+	margin-left: 9%;
+}
+#gif2
+{
+	margin-left: 45%;
+	padding-top: 4%;
+	margin-top: 2%;
+	width: 720px;
+	height: 350px;
+}
+#playlist li a
+{
+	text-decoration: none;
+}
+.logoinstallv2
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 10%;
+}
+.information3
+{
+	color: white;
+	outline: none;
+	cursor: pointer;
+}
+.carte
+{
+	width: 580px;
+	height: 320px;
+	box-shadow: 8px 10px 5px -5px black;
+	border-radius: 10%;
+}
+.anime
+{
+	width: 680px;
+	height: 380px;
+	box-shadow: 8px 10px 5px -5px black;
+}
+.cliquable
+{
+	width: 1028px;
+	height: 678px;
+	box-shadow: 8px 10px 5px -5px black;
+	border: 1px solid #333;
+}
+.textimg
+{
+	color: white;
+	margin-top: 6px;
+}
+.bloc
+{
+	padding-bottom: 1%;
+}
+.riotv2
+{
+	width: 60px;
+	height: 30px;
+}
+.fa-chevron-circle-up
+{
+	color: white;
+	font-size: 30px;
+}
