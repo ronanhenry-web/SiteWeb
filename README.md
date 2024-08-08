@@ -1,4 +1,4 @@
-# Projet Projet HTML, CSS et JavaScript
+# Projet SiteWeb
 
 Création d'un site web, sur le thème du jeu vidéo
 
