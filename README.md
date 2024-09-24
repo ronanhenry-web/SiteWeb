@@ -1,14 +1,14 @@
-# Projet SiteWeb
+# Website Project
 
-Création d'un site web, sur le thème du jeu vidéo
+Creation of a website themed around video games
 
-## Démarrer
+## Getting Started
 
-Le projet a été créé sous VSCode, pour le démarrer suivre les étapes suivantes.
+The project was created in VSCode. To start it, follow these steps :
 
-- Ouvrir le fichier index.html
+- Open the index.html file
 
-## Sources & Outils
+## Sources & Tools
 
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
 
